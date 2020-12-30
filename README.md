@@ -25,6 +25,7 @@ https://www.kaggle.com/data/188469)- Contains around 600-700 images of different
 4)**plantVillage dataset** - https://www.kaggle.com/emmarex/plantdisease
 Contains images used for plant diseases identification
 
+
 ###Krushi Mitra features and working:-
 
 
