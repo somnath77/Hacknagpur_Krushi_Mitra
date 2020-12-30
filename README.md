@@ -26,6 +26,6 @@ https://www.kaggle.com/data/188469)- Contains around 600-700 images of different
 Contains images used for plant diseases identification
 
 
-###Krushi Mitra features and working:-
+### Krushi Mitra features and working:-
 
 
