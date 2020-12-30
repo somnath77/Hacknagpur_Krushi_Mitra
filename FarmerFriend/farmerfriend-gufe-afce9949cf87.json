@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "farmerfriend-gufe",
+  "private_key_id": "afce9949cf87601b92e86e9b2b5bc65e662efb0f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCPKj/oBErduacY\nMOM9XT2V9rJwYgvKNba2F0fuTGc6E1bSEkeu2cqzyyMrI3pukyfmfc8g2wkfvU5e\nsJ6eJvqYxcM6TphOMTt8IyiMEH4bpRnMo9pNV5t6tCsQoBtI/bOLGtnQQ3WIdTAe\ngOV+NxImR8bC6h7aXrmLo0QEGk55iMzvQNIuMztbDTD604EFS980GrdNyL55Ogp9\nfqoB8Y99ZCpPmC15d5suDTQoDx4eEH+xqMPEauQ4IZvjlB8QXU62PQ8wSFxVi/1/\nJwa6fBGeYQB4CnxSAyw5UziEe43jW1DN6KGFrcAKJD+JhIT/toX8wYfqbC/WWbBn\n44xSFADrAgMBAAECggEAD4q7+ql8odV7GQU1pikZJnlBpdxUVf9pdnB7PpjMxraS\nwPt7DLWta8IBxLfKnXZxk8l/UvHJwR2sBFuS3K3JRrcxb9hYcHn9GzI16f61sgqa\nYmeSAL4iAuV28gxvlIeg64O0DF1Gb9SeWga5je+B6OX3OJxx/QLg4b03r7pWCptw\nZzJCIhHkmNp5iw1fiZHOXQOebjqI6GXx+4fb1QQQZ5jxE1t22y9x2kjfKBR2ZHr6\nC0VUMYrC/bSp9lPC2nKOVbdtUIaJdAlqv1Q89jjdKG0mBmv/P51Q/C7abYWtSHRs\nBHaZ1M7IEbVfMJaMlyF9JpDC8lQxi5cKpLkl91keAQKBgQDCSTVmXkxgEuIElsVM\n1eaiBJPbiFMlSHzBKmALBHoPNWU5m2bvOXmbJc2+Xsfs4pHD6jEvlvXkYEdvcRuS\nU1i0zFDtQRNXSf1dBG8JZJDBbk4s5UiTSX6iAuhY0xWcjr9MQh/hxlUiaxjYgTwC\nl+1z0Z+yKVja4mCZc79K/7rlwwKBgQC8pAehlNel7gHT6oX0akL8jnKuOT0dHWX6\n+Ye2IYxqXk3icbnlKLyq3Ey+3hC/HIyai//Zl2z33MIaAz+blFTiiiWYPrVtot28\nLsLeo25DF4XVLAQa5PJ6tdj7EuG3QDTN6t/Wv83KIBicjRD1cH1/pdV/q4RqdD1g\nB5RTiOG9uQKBgDH2C4Jgm3lVQcP2VZRVqTJexPr+Sota4aH22K3cn9rLW1V+DfFU\nsV3hUdAzpWvYM63SyoU3Z9IrpBMXXgS55CTSKblpM6UNxNanrjoXH1ZunDHVYF1n\n1+Wno8I7veH9n1nn4zT3AKuSKNh8G0d7dDeFX3C8Szo2Xqr3ZejObGxrAoGAB29T\nmau7ICAUVFze8LYrc7bNkE5TOU2KUmz5S1VhKmQTH8Sptf14Cifqom8wK8gdRo4U\nBGhydAZwZAQSwrgC7HbTan+2ON79bEhPh+TbGKvZq4AznTe+0tVN+v9QhB90tVT3\ng4hFvRysu6bXr0TCvYA0vPZunp98N8e0seIoO4kCgYAkvevvbOph3wlllk6leO+T\nNrirQR1flNwCYPESMiLMPY1cD3bWaVt6pGV36jehxZf75IABkzyvd+cxeRwzdepx\nqEXaILdvyvA+HWYU+u/l403AquZX91VcCHkfcl1u8K1G7H1QAfc91nsYhZqfzCnv\nZ0KJEwAhCAlBAtnz+ODfvQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "famersfriend@farmerfriend-gufe.iam.gserviceaccount.com",
+  "client_id": "118160173270029797614",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/famersfriend%40farmerfriend-gufe.iam.gserviceaccount.com"
+}

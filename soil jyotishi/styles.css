@@ -1,0 +1,127 @@
+header div i {
+    padding-top:20%;
+    font-size: 56px;
+}
+.demo-card-square.mdl-card {
+  width: 80%;
+  height: 80%;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background:
+    url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
+}
+body{
+  background:
+    url('./images/background.jpg')  ;
+    background-repeat: no-repeat;
+background-size: 100% 70%;
+}
+.btn, .btn-large, .btn-small, .btn-floating, .dropdown-content, .collapsible, .sidenav {
+-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+.btn, .btn-large, .btn-small {
+text-decoration: none;
+color: #fff;
+background-color: palevioletred;
+text-align: center;
+letter-spacing: .5px;
+-webkit-transition: background-color .2s ease-out;
+transition: background-color .2s ease-out;
+cursor: pointer;
+}
+.btn, .btn-large, .btn-small, .btn-floating, .btn-large, .btn-small, .btn-flat {
+font-size: 14px;
+outline: 0;
+}
+.btn, .btn-large, .btn-small, .btn-flat {
+border: none;
+border-radius: 2px;
+display: inline-block;
+height: 36px;
+line-height: 36px;
+padding: 0 16px;
+text-transform: uppercase;
+vertical-align: middle;
+-webkit-tap-highlight-color: transparent;
+}
+.light-blue {
+background-color:palevioletred !important;
+}
+
+.file-field input[type=file] {
+position: absolute;
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+width: 100%;
+margin: 0;
+padding: 0;
+font-size: 20px;
+cursor: pointer;
+opacity: 0;
+filter: alpha(opacity=0);
+}
+
+
+
+
+
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+user agent stylesheet
+input[type="file" i] {
+    appearance: initial;
+    background-color: initial;
+    cursor: default;
+    align-items: baseline;
+    color: inherit;
+    text-overflow: ellipsis;
+    white-space: pre;
+    text-align: start !important;
+    padding: initial;
+    border: initial;
+    overflow: hidden;
+}
+user agent stylesheet
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: textfield;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+.file-field .btn, .file-field .btn-large, .file-field .btn-small {
+    float: left;
+    height: 3rem;
+    line-height: 3rem;
+}

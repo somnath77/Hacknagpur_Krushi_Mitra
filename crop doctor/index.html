@@ -1,0 +1,137 @@
+<html>
+  <head>
+    <!-- Material Design Lite -->
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <!-- Material Design icon font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./styles.css">
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+      <!-- <script src='main.js'></script> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+       .loader {
+          border: 16px solid #f3f3f3; /* Light grey */
+          border-top: 16px solid #3498db; /* Blue */
+          border-radius: 50%;
+          width: 50px;
+          height: 50px;
+          animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+
+
+
+        .upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn_up {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+    </style>
+  </head>
+  <body >
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <span class="mdl-layout-title" >Farm App</span>
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation. We hide it in small screens. -->
+          <nav class="mdl-navigation ">
+           
+          </nav>
+        </div>
+        
+      </header>
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Farm App</span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="./shop/index.html">My Shop</a>
+          <a class="mdl-navigation__link" href="">Crop Doctor</a>
+          <a class="mdl-navigation__link" href="">Soil Jotishi</a>
+          <a class="mdl-navigation__link" href="">Agri Updates</a>
+          <a class="mdl-navigation__link" href="">Ferry Sharing</a>
+          <a class="mdl-navigation__link" href="">Markets Near Me</a>
+          <a class="mdl-navigation__link" href="./weather/index.html">Weather Updates</a>
+          <a class="mdl-navigation__link" href="">Kisan Seva</a>
+          <a class="mdl-navigation__link" href="">Connect with NGO</a>
+          <a class="mdl-navigation__link" href="">Cattle Management</a>
+        </nav>
+      </div>
+      <main class="mdl-layout__content">
+        <div class="page-content">
+          <br>
+          <h2 align = "center"> Upload the leaf Image </h2>
+         
+
+        
+
+          <center> <div class="upload-btn-wrapper">
+            <button class="btn_up">Upload</button>
+            <input type="file" name = 'image' accept="image/*"  id = "image" required/>
+          </div>
+        </center>
+
+
+
+         <center> <br><button  class='btn mdl-color--light-green'  onclick="send()">&nbsp;&nbsp;Submit&nbsp;&nbsp;</button></center>
+    
+        <!-- </form> -->
+        <h2 align = "center" id="target"></h2>
+        </div>
+        
+      </main>
+    </div>
+    <script type="text/javascript">
+      function send() {
+          var request = {
+              ID: $("#image").val(),
+              base64 : "",
+              Temperature : 30,
+              date : "2020-11-12",
+              Loc_Cordinates : [23.4582348,37.5062675]
+          }
+  
+          $('#target').html('<center><div class=loader></div><h4>Analysing data...<h4><center>');
+  
+          $.ajax({
+              url: '/',
+              type: 'post',
+              dataType: 'json',
+              contentType: 'application/json',
+              success: function (data) {
+                  $('#target').html(data.msg);
+              },
+              data: JSON.stringify(request)
+          });
+      }
+  </script>
+  </body>
+</html>

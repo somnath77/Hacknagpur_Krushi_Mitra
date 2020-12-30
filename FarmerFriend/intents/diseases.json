@@ -1,0 +1,50 @@
+{
+  "id": "73e6f96e-9953-4468-bc6d-dac1f8817118",
+  "name": "diseases",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9b4dd468-48b1-4301-9b39-b20e05a8d805",
+          "name": "time-period",
+          "required": false,
+          "dataType": "@sys.time-period",
+          "value": "$time-period",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Phytophthora induced diseases are wide spread and devastating during monsoon in spices like black pepper (foot rot), cardamom (Azhukal/capsule rot) and nutmeg (leaf fall/fruit rot). As a part of phytosanitary measures, dead/severely affected plants and plant parts should be removed from the field and destroyed.  most fungi that attack Iowa plants are unfazed by especially cold winters"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

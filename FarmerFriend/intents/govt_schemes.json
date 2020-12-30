@@ -1,0 +1,35 @@
+{
+  "id": "c91025d2-b827-4f02-a38b-d0601b6c3d23",
+  "name": "govt_schemes",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Important government schemes in agriculture\nPM-Kisan Scheme. ...\nPradhan Mantri Kisan Maandhan yojana. ...\nPradhan Mantri Fasal Bima Yojana (PMFBY) ...\nParamparagat Krishi Vikas Yojana (PKVY) ...\nPradhan Mantri Krishi Sinchai Yojana (PMKSY) ...\nNational Agriculture Market (e-NAM) ...\nDairy Entrepreneurship Development Scheme. For detailed information, visit farmer.gov.in"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

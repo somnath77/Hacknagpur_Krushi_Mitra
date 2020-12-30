@@ -1,0 +1,66 @@
+[
+  {
+    "id": "bb36f14a-18a3-480a-b9ec-2ce5b8b16861",
+    "data": [
+      {
+        "text": "weather please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8d4a9c6c-c99e-49ca-b965-5f35b8465dfb",
+    "data": [
+      {
+        "text": "how is weather in ",
+        "userDefined": false
+      },
+      {
+        "text": "latur",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5f3fdfd2-0615-4cbd-9569-8c4a3b2f03ab",
+    "data": [
+      {
+        "text": "How\u0027s weather ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "870c91d8-e9a9-459c-bdc4-1addee7a7cf5",
+    "data": [
+      {
+        "text": "Tell me the weather",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

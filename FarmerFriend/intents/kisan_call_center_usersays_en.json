@@ -1,0 +1,54 @@
+[
+  {
+    "id": "3470c474-42ac-4318-a97e-e16c101ac656",
+    "data": [
+      {
+        "text": "Tell me about kisan helpline number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "eefe1772-e463-4185-9254-834c19e963b1",
+    "data": [
+      {
+        "text": "Give me kisan helpline number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b2967884-fc57-4ce4-8297-b18496b07920",
+    "data": [
+      {
+        "text": "what is kisan helpline number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "faae7031-c68d-4a0e-ad75-a1891b93d438",
+    "data": [
+      {
+        "text": "What is kisan call center number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

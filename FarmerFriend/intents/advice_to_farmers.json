@@ -1,0 +1,35 @@
+{
+  "id": "f33fbf83-8ef7-4cd2-abc2-454f14a0928f",
+  "name": "advice_to_farmers",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You are very good farmer already. Here are some advice I would like to give you\n1.Set a clear and simple business plan and stick to it. Discuss and talk about it with family, colleagues and anyone who would listen.\n\n2. Control weeds when they are small and this rule applies to any problem you encounter in life.\n\n3. Trust everyone, but learn from it if they let you down.\n\n4. Always do what you tell people you are going to do.\n\n5. Understand there is a difference between profit and turnover and a big difference between having cash and being wealthy.\n6. Always be helpful to your neighbours.\n\n7. When you make a mistake, say sorry and mean it.\n\n8. Low costs come from high yields not large scale and high sales prices come from high-quality products and service, not branding.\n\n9. Borrow as much as anyone will lend you to purchase appreciating capital assets. Try to avoid buying anything that depreciates with time.\n\n10. Employ good people to do the jobs you don’t like and then show them your appreciation."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

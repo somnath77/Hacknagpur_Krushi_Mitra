@@ -1,0 +1,35 @@
+{
+  "id": "3259cd7f-7db9-47b7-9e4a-e35a7a0f6b9f",
+  "name": "kisan_credit_card",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The Kisan Credit Card scheme is a credit scheme introduced in August 1998 by Indian banks. This model scheme was prepared by the National Bank for Agriculture and Rural Development on the recommendations of R.V.GUPTA committee to provide term loans for agricultural needs.  Individuals who meet the following requirements can get a Kisan Credit Card\nMinimum age – 18 years.\nMaximum age – 75 years at the end of loan tenure.\nFor borrowers above the age of 60, co-borrower less than 60 years old is mandatory. Such a co-borrower. Visit the official site of any bank of your choice and visit the Kisan Credit Card Section.\nDownload the application form and print it out.\nFill out the application form.\nVisit the nearest branch of the bank and submit the application long with the documents asked."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
