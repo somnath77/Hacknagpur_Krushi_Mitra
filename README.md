@@ -9,9 +9,8 @@ Shreya Kulkarni - skulkarni156029@gmail.com
 Somnath Surwase - somnathsurwase7@gmail.com
 
 #### Problem Statement - 
-         Provide multi-purpose application solution to the farmers through which farmers can do shop,buy inventory,fertilizers,grains,crop diease identification with causes and remedies,
-get recommendations based on soil type,get latest agriculture updates,ferry sharing feature for travel purpose,get nearby markets,get weather updates,get access to kisant seva,connect with nearby NGO's,
-livestock management with buy,sell and get statistics of livestock,chatbot for serving answers to general queries.
+        
+  Provide multi-purpose application solution to the farmers through which farmers can do shop,buy inventory,fertilizers,grains,crop diease identification with causes and remedies,get recommendations based on soil type,get latest agriculture updates,ferry sharing feature for travel purpose,get nearby markets,get weather updates,get access to kisant seva,connect with nearby NGO's,livestock management with buy,sell and get statistics of livestock,chatbot for serving answers to general queries.
 
 #### Datasets used - 
 Multiple datasets have been used for training and obtaining relevant output purposes. All the datasets used are custom datsets; constructed and structured according to the algorithm requirements and proposed test cases. Following is the list and types of the datasets used-
