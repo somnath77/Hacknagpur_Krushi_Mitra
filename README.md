@@ -44,8 +44,7 @@ Contains images used for plant diseases identification
 **1)LOGIN PORTAL** :- User/admin can login with username and password.
 
 **2) MY_SHOP** :- In my shop feature farmer can buy,sell,rent crops,inventory tools and fertilizers.
- 
- <img src="https://github.com/Shreya-156029/Hacknagpur_Krushi_Mitra/blob/master/Readme_images/shop.jpeg" alt="AppImg1" width="250" height="500"> 
+ ![Web1](/https://github.com/Shreya-156029/Hacknagpur_Krushi_Mitra/blob/master/Readme_images/shop.jpeg)
 
 **3) AGRI_UPDATES** :- Under agri updates user will be able to access latest news regarding agriculture
 
