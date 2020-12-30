@@ -42,4 +42,27 @@ Contains images used for plant diseases identification
 
 ### Krushi Mitra features and working:-
 
+1) **MY_SHOP** :- In my shop feature farmer can buy,sell,rent crops,inventory tools and fertilizers.
+
+2) **AGRI_UPDATES** :- Under agri updates user will be able to access latest news regarding agriculture
+
+3) **CROP_DOCTOR** :- User will upload an image and based on that he/she will get diseases,causes and remedies.For prediction of disease we have used deep learning model using pytorch which will detect image using convolutional neural network and predict disease by using classification algorithm.
+
+4) **SOIL_JYOTISHI** :- After uploading an image of soil user will be able to get Crops,Fertilizers Required,cost of Cultivation,xpected Revenue,quantity of seeds per hectre	duration of cultivation,demand of crop,crops for mixed cropping	and link for more relavent videos based on soil image,temprature,location(latitude longitude) of user's location.
+
+5) **MARKETS_NEAR_ME** :- User will be able to access details about all nearby markets through this feature.
+
+6) **WEATHER UPDATES** :- User will be able to access temprature,humidity,tempareture variation,cloud cover of last 7 days based on current location data.
+
+7) **KISAN_SEVA** :- User can access PM kisan seva and get details about latest and applicable government schemes.
+
+8) **CONNECT WITH NGOS** :- Farmer can connect to the nearby NGO's which are helpful to them for different purposes.
+
+9) **FERRY SHARING** :- Farmer can get to access ferry sharing by truck,tempo for travelling of manufactured crops and agricultural inventory materials.He can also get to know optimised path from current location to destination.
+
+10) **CATTLE MANAGEMENT** :- This feature will provide suitable identification method to the animals based on QR code.User will be able to add/buy/sell or change ownership of animals through this feature.We can get region wise animal statistics based on different parameters which can be further used for analytical purposes.
+
+11) **CHATBOT** :- We have integrated chatbot using dialogflow which can be used by farmers to solve general purpose queries.For chat bot we have provided **multilingual support** 
+
+
 
