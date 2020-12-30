@@ -50,6 +50,9 @@ Contains images used for plant diseases identification
 
 **4) CROP_DOCTOR** :- User will upload an image and based on that he/she will get diseases,causes and remedies.For prediction of disease we have used deep learning model using pytorch which will detect image using convolutional neural network and predict disease by using classification algorithm.
 
+<img src="https://github.com/Shreya-156029/Hacknagpur_Krushi_Mitra/blob/master/Readme_images/crop_doc1.PNG" alt="AppImg1" width="230" height="auto">      
+<img src="https://github.com/Shreya-156029/Hacknagpur_Krushi_Mitra/blob/master/Readme_images/crop_doc2.PNG" alt="AppImg2" width="230" height="auto">  
+
 **5) SOIL_JYOTISHI** :- After uploading an image of soil user will be able to get Crops,Fertilizers Required,cost of Cultivation,xpected Revenue,quantity of seeds per hectre	duration of cultivation,demand of crop,crops for mixed cropping	and link for more relavent videos based on soil image,temprature,location(latitude longitude) of user's location.
 
 **6) MARKETS_NEAR_ME** :- User will be able to access details about all nearby markets through this feature.
@@ -65,6 +68,8 @@ Contains images used for plant diseases identification
 **11) CATTLE MANAGEMENT** :- This feature will provide suitable identification method to the animals based on QR code.User will be able to add/buy/sell or change ownership of animals through this feature.We can get region wise animal statistics based on different parameters which can be further used for analytical purposes.
 
 **12) CHATBOT** :- We have integrated chatbot using dialogflow which can be used by farmers to solve general purpose queries.For chat bot we have provided **multilingual support** 
+
+
 
 
 
